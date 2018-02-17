@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context="com.apps911.brunotrovo.androidcustomdialogs.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="@string/act_main_title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/act_main_message"
+        android:textColor="@color/grey_text" />
+
+    <Button
+        android:id="@+id/btn_success"
+        style="@style/MediumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/act_main_success_button_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_error"
+        style="@style/MediumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/act_main_error_button_text"
+        android:textStyle="bold" />
+
+</LinearLayout>
